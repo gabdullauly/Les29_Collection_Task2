@@ -1,7 +1,10 @@
-/*
+package Task1;/*
 In main class create 5 users, 5 employees.  Create array of humans.
 Sort array by human name and print all data
  */
+
+import Task1.Employee;
+import Task1.Human;
 
 import java.util.ArrayList;
 

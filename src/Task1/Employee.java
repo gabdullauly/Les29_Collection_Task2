@@ -1,5 +1,5 @@
-/*
-Class Employee extends Human
+package Task1;/*
+Class Task1.Employee extends Task1.Human
 - String employeeId
 - String jobname;
 - Int salary
@@ -10,7 +10,7 @@ Getter/setter
 
 import java.util.ArrayList;
 
-public class Employee extends Human{
+public class Employee extends Human {
     private String employeeId;
     private String jobName;
     private int salary;

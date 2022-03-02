@@ -1,5 +1,5 @@
-/*
-Abstract Class Human
+package Task1;/*
+Abstract Class Task1.Human
 -int name
 -int age
 Getter/setter

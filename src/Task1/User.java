@@ -1,5 +1,5 @@
-/*
-Class User extends Human
+package Task1;/*
+Class Task1.User extends Task1.Human
 - String username
 - String password
 Constructor default+param
@@ -7,9 +7,9 @@ Getter/setter
 override void printData()
  */
 
-import java.util.ArrayList;
+import Task1.Human;
 
-public class User extends Human{
+public class User extends Human {
     private String username;
     private String password;
 
