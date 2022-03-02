@@ -1,3 +1,14 @@
+/*
+Abstract Class Human
+-int name
+-int age
+Getter/setter
+Constructor default+param
+Abstract void printData()
+ */
+
+import java.util.ArrayList;
+
 public abstract class Human {
     private String name;
     private int age;
@@ -25,5 +36,7 @@ public abstract class Human {
     }
 
     public abstract void printData();
+
+
 
 }

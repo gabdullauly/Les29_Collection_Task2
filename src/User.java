@@ -1,3 +1,14 @@
+/*
+Class User extends Human
+- String username
+- String password
+Constructor default+param
+Getter/setter
+override void printData()
+ */
+
+import java.util.ArrayList;
+
 public class User extends Human{
     private String username;
     private String password;
@@ -26,8 +37,11 @@ public class User extends Human{
     }
 
     @Override
-    public void printData(){
-        System.out.print(getName()+" "+getAge()+" "+username+" "+password);
+    public void printData() {
+        System.out.println(getName() + " " + getAge() + " " + username + " " + password);
     }
+
+
+
 
 }

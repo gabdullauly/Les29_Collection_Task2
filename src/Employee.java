@@ -1,3 +1,15 @@
+/*
+Class Employee extends Human
+- String employeeId
+- String jobname;
+- Int salary
+Constructor default+param
+override void printData()
+Getter/setter
+ */
+
+import java.util.ArrayList;
+
 public class Employee extends Human{
     private String employeeId;
     private String jobName;
@@ -39,4 +51,6 @@ public class Employee extends Human{
     public void printData(){
         System.out.println(getName()+" "+getAge()+" "+employeeId+" "+jobName+" "+salary);
     }
+
+
 }
